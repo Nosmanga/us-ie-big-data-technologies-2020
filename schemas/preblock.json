@@ -1,8 +1,8 @@
 {
   "author": {
-    "name": "John Doe",
-    "student_nr": 12345678,
-    "email": "12345678@sun.ac.za"
+    "name": "Nosmanga Nekhubvi",
+    "student_nr": 25257323,
+    "email": "nosmanga.nekhubvi@fnb.co.za"
   },
   "assignment": [
     {
@@ -10,17 +10,17 @@
       "questions": [
         {
           "question": "Loosely define the term 'data product' and provide an example?",
-          "answer": "",
+          "answer": "Data product is an application output that can be bought, which is created from the combination of algorithms and data, for example Apache Hadoop.",
           "total_marks": 2
         },
         {
           "question": "Provide a layman's explanation for what differentiates big data analytics from conventional data analytics?",
-          "answer": "",
+          "answer": "Big data analystics deal with large volumes of data while conventional data analytics deal with lesser volumes. ",
           "total_marks": 1
         },
         {
           "question": "There are numerous articles online discussing how IoT is driving data volumes and is inextricably linked to big data. Name an IoT device that you come into contact with and what data it may be sending and receiving?",
-          "answer": "",
+          "answer": "smart watch. It receives heartbeat, and sends heart pulse ",
           "total_marks": 1
         }
       ]
@@ -30,42 +30,42 @@
       "questions": [
         {
           "question": "What is on-premise computing?",
-          "answer": "",
+          "answer": "On-premise computing is software and technology that is located within the physical confines of a company, often locaated in the company's data cente",
           "total_marks": 1
         },
         {
           "question": "How has on-demand cloud computing enabled big data analytics?",
-          "answer": "",
+          "answer": "On-demand cloud computing has enabled big data analytics by enabling large data sets to be queried more quicker on cloud as and when needed.",
           "total_marks": 1
         },
         {
           "question": "What is a _multi-tenancy_, as it relates to cloud computing?",
-          "answer": "",
+          "answer": "Multi-tenancy means that a single instance of the software and its supporting infrastructure serves multiple isolated customers where each customer shares the software application and a single database . These customers are invisible to other.",
           "total_marks": 1
         },
         {
           "question": "How could organisations with existing infrastructure leverage _on-demand_ cloud computing?",
-          "answer": "",
+          "answer": "Organisations with existing infrastructure leverage on-demand cloud computing by leveraging on economies of scale through automation.",
           "total_marks": 1
         },
         {
           "question": "Give an example of a cloud managed service and how its management may be  beneficial (in at least two specific ways, e.g. critical software updates occur automatically with no down time)?",
-          "answer": "",
+          "answer": "An example of a cloud managed service is Microsoft Azure. Its benefits are that it can be used by all sizes of enterprises both small and large and that it has good security, compliance, and disaster recovery. ",
           "total_marks": 2
         },
         {
           "question": "What is horizontal vs vertical scaling?",
-          "answer": "",
+          "answer": "Horizontal scaling refers to additing more servers to meet the needs of the organization, while vertical scaling refers to adding more CPU, memory, or I/O resources to an existing server, or replacing one server with a more powerful server",
           "total_marks": 2
         },
         {
           "question": "What is a significant source of latency in a distributed system?",
-          "answer": "",
+          "answer": "A significant source of latency in a distributed system is inefficient algorithms ",
           "total_marks": 1
         },
         {
           "question": "Describe PaaS, Saas, Iaas and provide an example of each?",
-          "answer": "",
+          "answer": "PaaS are services that provides cloud components to certain software while being used mainly for applications and provides framework for developers that they can build upon and use to create customized applications, example is Windows Azure.  SaaS utilizes the internet to deliver applications, which are managed by a third-party vendor, to its users, an example is Dropbox. IaaS are services made of highly scalable and automated computer resources, IaaS is fully self-service for accessing and monitoring computers, networking, storage, and other services, for example Microsoft Azure",
           "total_marks": 4
         }
       ]
@@ -80,37 +80,37 @@
         },
         {
           "question": "Suppose you want to process a large amount of data. In this context, what does it mean if a process is 'I/O bound', and how would you solve/ameliorate this using hardware, or using a language such as python or javascript (or any other language you are more familiar with)?",
-          "answer": "",
+          "answer": "I/O Bound means the rate at which a process progresses is limited by the speed of the I/O subsystem, therefore I would get new and faster disk.",
           "total_marks": 2
         },
         {
           "question": "What does serialization mean in the context of storing objects or data?",
-          "answer": "",
+          "answer": "Serialization is the process of converting an object into a stream of bytes to store the object or transmit it to memory, a database, or a file",
           "total_marks": 1
         },
         {
           "question": "What does it mean when we say that JSON is serializable?",
-          "answer": "",
+          "answer": "It means that JSON is able to encodes objects in a string",
           "total_marks": 1
         },
         {
           "question": "Define 'embarrassingly parallelisable' and provide an example in the related to data analytics?",
-          "answer": "",
+          "answer": "Embarrassingly parallelisable is an algorithm which can do multiple operations in a given time, an example is Monte Carlo analysis",
           "total_marks": 1
         },
         {
           "question": "What paradigm shift allows the Spark's computing engine to be faster than MapReduce?",
-          "answer": "",
+          "answer": "Spark utilizes RAM and it is not tied to Hadoop’s two-stage paradigm",
           "total_marks": 1
         },
         {
           "question": "How is java code able to run on multiple operating systems?",
-          "answer": "",
+          "answer": "Because java is platform -independent",
           "total_marks": 1
         },
         {
           "question": "What is the difference between a virtual machine (e.g. virtualbox) and containers (e.g. docker)? Which one is more light-weight and which is more secure? ",
-          "answer": "",
+          "answer": "The differrence between virtual machine and containers is that with virtual machines the hardware is being virtualized to run multiple operating systems instances while containers provide a way to virtualize an operating system so that multiple workloads can run on a single operating system instance. containers are more light-weight and virtual machines are more secure than containers.",
           "total_marks": 3
         }
       ]
@@ -130,17 +130,17 @@
         },
         {
           "question": "What is meant by unbounded data, and how does it differ from bounded data?",
-          "answer": "",
+          "answer": "Unbounded data is an ever-growing, essentially infinite data set, while bounded data is finite, it has a beginning and an end. ",
           "total_marks": 2
         },
         {
           "question": "Stream processing is an inherently time-related activity; describe the difference between 'event time' and 'processing time' within these systems, and provide a brief example in the banking or retail sector?",
-          "answer": "",
+          "answer": " Event time is the time event the actually occurred. Event time has to be derived from the field in event, example : timestamp field. Processing time is the time when the event is processed.",
           "total_marks": 3
         },
         {
           "question": "It is possible to process _unbounded_ data in a batch system. If our use-case  does not require near real-time processing, then how would this be done?",
-          "answer": "",
+          "answer": "By using true streaming analytics projects with Apache Flink, Apache Beam, Spark Streaming and the others. ",
           "total_marks": 1
         }
       ]
@@ -150,12 +150,12 @@
       "questions": [
         {
           "question": "Tape drives are still in wide use around the world. Provide three reasons for their continued use?",
-          "answer": "",
+          "answer": "Three uses of tape drives are  offline use, archival data storage, favorable unit cost and a long archival stability.",
           "total_marks": 3
         },
         {
           "question": "What is the difference between a _kibibyte_ and a _kilobyte_, and which is accurate in terms of storage?",
-          "answer": "",
+          "answer": "kibibyte is a 1024 bytes and kilobyte is 1000 bytes. kibibyte is more accurate in terms of data storage.",
           "total_marks": 2
         },
         {
@@ -165,22 +165,22 @@
         },
         {
           "question": "Briefly described what is meant when people refer to SQL and NoSQL databases and provide an example of a type of data typically stored in NoSQL databases?",
-          "answer": "",
+          "answer": "SQL databases are relational, and use structured query language and have a predefined schema. NoSQL are non-relational and have dynamic schemas for unstructured data. Data type example-integer.",
           "total_marks": 2
         },
         {
           "question": "_Wide-column_ and _key-value_ stores are examples of NoSQL database types. Can you name two more?",
-          "answer": "",
+          "answer": "Document store and graph database.",
           "total_marks": 2
         },
         {
           "question": " What makes Avro self-describing, and does Google's ProtoBuf also have this feature? Why is this a useful?",
-          "answer": "",
+          "answer": "Avro is self-describing because it creates a self-describing file named Avro Data File, in which it stores data along with its schema in the metadata section. Google's ProtoBuf is not elf-describing. self-describing is useful for identity.",
           "total_marks": 2
         },
         {
           "question": "When comparing random access memory (RAM) to conventional solid state disks and rota disks (normal rotational), how many orders of magnitude faster is _main memory_ or RAM (these are approximate calculations that may ignore the differences between read and write operations)?",
-          "answer": "",
+          "answer": "RAM is 2 exp 20 orders of magnitude faster.",
           "total_marks": 1
         }
       ]
@@ -190,32 +190,32 @@
       "questions": [
         {
           "question": "Big data teams often include, amongst other roles, data engineers and data scientists. Provide a few differentiating responsibilities between these two roles?",
-          "answer": "",
+          "answer": "Both data engineers and data scientists are programmers. However, data engineers tend to have a far superior grasp of programming skill by building infrastructure and architecture for data generation while data scientists are much better at data analytics by using mathematics and statistical analysis on the data generated by data engineers.",
           "total_marks": 2
         },
         {
           "question": "Why is data lineage important in analytics applications?",
-          "answer": "",
+          "answer": "Maintaining regulatory Compliance. Data visibility. Ease of data processing. Valuable insights. Acts as a bridge between business terminologies and data terminologies. Helps with root cause analysis. It’s god for scalability and sustainability.",
           "total_marks": 2
         },
         {
           "question": "The operation of reading data from a database may be said to be _idempotent_. Suppose  we fill our online shopping cart with items, and proceed to checkout. Would we want the  checkout process to be idempotent, and why? ",
-          "answer": "",
+          "answer": "Yes, we would want the checkout process to be idempotent because we would not like exchanged products to what we selected.",
           "total_marks": 2
         },
         {
           "question": "What is CICD?",
-          "answer": "",
+          "answer": "CICD is Continuous Integration or Continuous delivery.",
           "total_marks": 1
         },
         {
           "question": "What is DataOps?",
-          "answer": "",
+          "answer": "DataOps is an automated, process-oriented methodology, used by analytic and data teams, to improve the quality and reduce the cycle time of data analytics.",
           "total_marks": 1
         },
         {
           "question": "When is data _immutable_ and why is it it a useful concept in the big data realm (e.g. consider Hadoop's HDFS filesystem or S3 buckets in AWS)?",
-          "answer": "",
+          "answer": "Data is immutable when the class and fields are made to be final and the setter methods are not exposed.",
           "total_marks": 1
         }
       ]
@@ -225,17 +225,17 @@
       "questions": [
         {
           "question": "What is a metastore/metadata server in distributed systems and why is it important (e.g. consider the Hive Metastore in the Hadoop environment, NameNodes in the Hadoop Filesystem, or Metadata Servers in Ceph)?",
-          "answer": "",
+          "answer": "A metadata server is a centralized repository that stores, manages and delivers metadata for applications within an organization.Because it's a central instance, all users can benefit from consistent data.",
           "total_marks": 1
         },
         {
           "question": "What kind of database is Cassandra and what kind of workloads is it suited for (i.t.o read/writes)?",
-          "answer": "",
+          "answer": "Cassandra is a distributed NoSQL database that delivers continuous availability, high performance, and linear scalability that successful applications require.",
           "total_marks": 2
         },
         {
           "question": "What is the H2O platform and what underlying design/operational choice does it share with Spark?",
-          "answer": "",
+          "answer": "Sparkling Water is designed to be executed as a regular Spark application. It provides a way to initialize H2O services on each node in the Spark cluster and to access data stored in data structures of Spark and H2O.",
           "total_marks": 1
         },
         {
@@ -250,12 +250,12 @@
       "questions": [
         {
           "question": "How do we know if a machine learning model will perform well 'in the wild'?",
-          "answer": "",
+          "answer": "Since most model-performance measures are based on the comparison of the model's predictions with the (known) values of the dependent variable in a dataset. For an ideal model, the predictions and the dependent-variable values should be equal.",
           "total_marks": 1
         },
         {
           "question": "Suppose you are building a model on a large dataset (>500GiB) and have limited time for discovery work and limited budget. How do you approach feature engineering and model estimation in a reasonable way?",
-          "answer": "",
+          "answer": "By using best judgement.",
           "total_marks": 1
         }
       ]
